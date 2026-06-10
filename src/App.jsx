@@ -96,7 +96,7 @@ function App() {
       {/* // hero */}
       <section className="bg-gray-900">
         <div className="container mx-auto text-center text-white h-screen flex items-center">
-          <div className="mx-auto w-2/4">
+          <div className="mx-auto w-3/4 md:w-2/4">
             <h3 className="text-5xl font-bold text-center mb-5">
               Bring Your Business To Next Level
             </h3>
@@ -107,7 +107,7 @@ function App() {
               voluptates, reiciendis consectetur labore.
             </p>
             <a
-              href="#"
+              href="#portofolio"
               className="bg-red-500 text-white py-2 px-5 rounded-xl hover:bg-red-800"
             >
               See All Portofolio
@@ -118,14 +118,14 @@ function App() {
 
       {/* services */}
       <section id="services" className="bg-gray-200 py-20">
-        <div className="container mx-auto">
+        <div className="w-11/12 md:container mx-auto">
           <h3 className="text-5xl font-bold text-center mb-5">Our Services</h3>
           <p className="text-gray-500 text-center mb-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
             ratione!
           </p>
 
-          <div className="grid grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* sevice 1 */}
             <div className="flex space-x-5 py-8 px-8 bg-white rounded-xl shadow-md items-start">
               <img src="https://placehold.co/100x100" />
@@ -197,7 +197,7 @@ function App() {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt,
           cumque!
         </p>
-        <div className="grid grid-cols-4 container mx-auto gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 w-11/12 md:container mx-auto gap-6">
           {/* portofolio items */}
           <div className="shadow-xl">
             <a href="#">
@@ -254,9 +254,9 @@ function App() {
       </section>
 
       {/* about */}
-      <section className="container mx-auto py-20" id="about">
+      <section className="w-11/12 md:container mx-auto py-20" id="about">
         <div className="flex space-x-10 items-start">
-          <img src="https://placehold.co/300" alt="" />
+          <img src="https://placehold.co/300" className="w-2/4 md:w-1/3" alt="" />
           <div>
             <p className="mb-5">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro,
@@ -275,7 +275,7 @@ function App() {
               placeat id ipsum ex. Inventore tempora amet distinctio alias quae
               id quaerat ad.
             </p>
-            <ul className="flex space-x-5">
+            <ul className="md:flex md:space-x-5">
               <li>
                 <a href="#">
                   <FontAwesomeIcon
